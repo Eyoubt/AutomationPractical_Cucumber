@@ -1,0 +1,212 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-17T01:32:08.699Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2273156900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.SkyBlueBgStep.beforeRun()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Sky Blue Background",
+        "description": "",
+        "id": "techfios-test-page-background-color-validation;sky-blue-background",
+        "after": [
+          {
+            "result": {
+              "duration": 218104100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.SkyBlueBgStep.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58012200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"Set SkyBlue Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Set SkyBlue Background\"",
+                  "offset": 0
+                }
+              ],
+              "location": "steps.SkyBlueBgStep.btnExists(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3044006900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the \"Set SkyBluebutton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Set SkyBluebutton\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.SkyBlueBgStep.set_skyblue(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35692700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The background color will change to \"sky blue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sky blue\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.SkyBlueBgStep.bgColorChangedToBlue(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BackgroundColor"
+          },
+          {
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-17T01:32:14.399Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1821863300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.SkyBlueBgStep.beforeRun()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "White Background Change",
+        "description": "",
+        "id": "techfios-test-page-background-color-validation;white-background-change",
+        "after": [
+          {
+            "result": {
+              "duration": 216769300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.SkyBlueBgStep.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46139900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "\"Set SkyWhite Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Set SkyWhite Background\"",
+                  "offset": 0
+                }
+              ],
+              "location": "steps.SkyBlueBgStep.btnExists(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3049722100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on the \"Set White button\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Set White button\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.SkyBlueBgStep.set_skyblue(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30935000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The background color will change to \"white\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"white\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.SkyBlueBgStep.bgColorChangedToBlue(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BackgroundColor"
+          },
+          {
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios test page background color validation",
+    "description": "",
+    "id": "techfios-test-page-background-color-validation",
+    "keyword": "Feature",
+    "uri": "classpath:features/BgColor.feature",
+    "tags": [
+      {
+        "name": "@BackgroundColor",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
